@@ -1,16 +1,18 @@
-# bno
+ # BnO App
 
-A new Flutter project.
+Aplikację wykorzystująca framework Flutter. Aplikacja ta służy do przechowywania wybranych aktywności i jest zintegrowana z aplikacją Strava, co pozwala na efektywne zarządzanie danymi sportowymi.
 
-## Getting Started
+## Funkcjonalności
 
-This project is a starting point for a Flutter application.
+- **Importowanie aktywności ze Stravy**: Korzystając z API stravy po połączeniu swojego konta jest mozliwość zaimportowania wybranych aktywności.
 
-A few resources to get you started if this is your first Flutter project:
+- **Tworzenie kont użytkowników**: Wykorzystając Authentication z Firebase aplikacja daje możliowość tworzenia kont użtkowników
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- **Wyświetlanie aktywności na mapie**: Możliwość wyświetlania miejsc aktywności na MapBoxie.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologie
+
+- Flutter
+- Dart
+- API 
+- Firebase(Authentication, Cloud Functions, Firestore)
